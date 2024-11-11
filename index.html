@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Слайдер 2</title>
+	<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+	<canvas class="canvas" width="800" height="600"></canvas>
+
+	<div class="aside">
+		<div class="rgb-box">
+			<label for="red"><span>Красный</span>
+				<input type="range" id="red" class="red" min="0" max="255" value="0">
+			</label>
+			<label for="green"><span>Зеленый</span>
+				<input type="range" id="green" class="green" min="0" max="255" value="0"></label>
+			<label for="blue"><span>Синий</span>
+				<input type="range" id="blue" class="blue" min="0" max="255" value="0"></label>
+			<p></p>
+		</div>
+		<input class="fileInput" type="file" accept="image/*">
+	</div>
+	<div class="asideRight">
+
+		<div class="preview">
+			<button class="showPreview">Показать preview</button>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+
+</html>
